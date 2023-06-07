@@ -17,12 +17,13 @@ public class _2525 {
 		if ( min > 59 ) 
 		{
 			h += (min / 60); //시간 
+			
+			if ( h > 23 )
+			{
+				h = ( h % 24 );
+			}
+
 			min = (min % 60); //나머지 
-		}
-		
-		if ( h > 23 )
-		{
-			h = 0;
 		}
 
 		System.out.println(h + " " + min);
