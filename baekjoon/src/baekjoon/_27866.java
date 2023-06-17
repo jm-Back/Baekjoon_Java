@@ -12,6 +12,10 @@ public class _27866 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		String st = sc.next();
+		int n = sc.nextInt() - 1;
+		
+		System.out.println(st.charAt(n));
 		
 		sc.close();
 	}
