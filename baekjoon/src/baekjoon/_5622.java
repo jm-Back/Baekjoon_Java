@@ -28,7 +28,7 @@ public class _5622 {
 		{
 			char num = n.charAt(i);
 
-			if ( num == 83 || num == 90 )
+			if ( num == 83 || num == 90 || num == 86 || num == 89 )
 			{
 				sum += (num-65)/3 + 2;
 			}
