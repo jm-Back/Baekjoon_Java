@@ -15,12 +15,37 @@ public class _1085 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
-		
-		
-		
-		sc.close();
-
-	}
-
+		 
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int w = sc.nextInt();
+        int h = sc.nextInt();
+ 
+        int min = 10000;
+ 
+        if ( min > Math.abs(0-x) )
+        {
+            min = Math.abs(0-x);
+        }
+ 
+        if ( min > Math.abs(0-y) )
+        {
+            min = Math.abs(0-y);
+        }
+ 
+        if ( min > Math.abs(w-x) )
+        {
+            min = Math.abs(w-x);
+        }
+ 
+        if ( min > Math.abs(h-y) )
+        {
+            min = Math.abs(h-y);
+        }
+ 
+        System.out.println(min);
+ 
+        sc.close();
+ 
+    }
 }
