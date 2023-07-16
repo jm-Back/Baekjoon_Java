@@ -21,9 +21,12 @@ import java.util.Scanner;
  * 
  */
 public class _24262 {
-	//나눗셈
+	//나눗셈 
 	public static void main(String[] args) {
 		
+		//해당 메서드는 배열과 n 을 입력 받아서 
+		// a라는 배열에서 특정 인데스 값을 리턴해준다.
+		// 즉, 배열 중 하나의 값만 리턴하기에 0(1) 이므로 1,0을 출력한다. 
 		System.out.println(1);
 		System.out.println(0);
 		
