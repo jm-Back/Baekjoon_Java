@@ -26,6 +26,9 @@ public class _11650 {
 			arr[i][1] = sc.nextInt();
 		}
 		
+		//x값(0번째숫자)가 같은 경우, y값(1번째숫자) 비교
+		//그렇지 않으면 그냥 0번째 숫자 비교에서 그친다. 
+		//****람다식 사용하는 것이 중요하군요....
 		Arrays.sort(arr, (arr1, arr2) -> {
 			if ( arr1[0] == arr2[0]) {
 				return arr1[1] - arr2[1];
