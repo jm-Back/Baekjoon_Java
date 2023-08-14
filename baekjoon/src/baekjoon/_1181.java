@@ -41,8 +41,7 @@ public class _1181 {
 					return o1.length() - o2.length();
 				}
 			}
-			
-		
+
 		});
 		
 		System.out.println(arr[0]);
