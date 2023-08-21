@@ -45,8 +45,8 @@ public class _10816 {
 		for ( int i = 0; i < m; i++ ) {
 			int quiz = Integer.parseInt(st.nextToken());
 			
-			
-			
+			sb.append(upperBound(arr, quiz) - lowerBound(arr, quiz) + " ");
+
 		}
 		
 		System.out.println(sb.toString());
