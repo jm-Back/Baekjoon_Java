@@ -27,16 +27,26 @@ public class _1934 {
 		//t개의 줄에 걸쳐 a,b가 주어진다. 
 		for ( int i = 0; i < t; i++ ) {
 			st = new StringTokenizer(br.readLine());
+			
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
 			
-			
+			int result = gcd(a,b); // 6 10 -> 2
+			System.out.println((a/result)*b);
 			
 		}
-		
-		
-		
-		
 	}
+	
+	public static int gcd(int a, int b) {
+		
+		while(b!=0) {
+			int r = a % b;
+			a = b;
+			b = r;	
+		}
+		
+		return a;
+	}
+	
 
 }
