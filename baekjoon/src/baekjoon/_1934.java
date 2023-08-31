@@ -33,8 +33,9 @@ public class _1934 {
 			
 			int result = gcd(a,b); // 6 10 -> 2
 			System.out.println((a/result)*b);
-			
+
 		}
+		
 	}
 	
 	public static int gcd(int a, int b) {
