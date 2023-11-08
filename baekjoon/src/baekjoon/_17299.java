@@ -25,14 +25,14 @@ public class _17299 {
             arr[i] = Integer.parseInt(st.nextToken());
             cnt[arr[i]]++;
         }
- 
+
         for(int i=0; i<n; i++){
             while(!stack.isEmpty() && cnt[arr[stack.peek()]] < cnt[arr[i]] ){
                 result[stack.pop()] = arr[i];
             }
             stack.add(i);
         }
- 
+  
         while (!stack.empty()){
             result[stack.pop()] = -1;
         }
